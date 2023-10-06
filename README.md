@@ -23,6 +23,7 @@ sudo systemctl restart docker && sudo systemctl enable docker
 
 
 sudo docker run -dit --restart=always  --name dvwa   --publish 80:80   docker.io/vulnerables/web-dvwa  
+sudo docker run -dit --restart=always  --name star-ratings   --publish 80:8080   interestingstorage/star-ratings-app:guide-latest  
 -----------------------------------------------------------------------------------------------------------
 you can access http://server_ip
 
